@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STUDY ABROAD with Aliff</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #8e44ad, #3498db);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      max-width: 120px;
+      border-radius: 12px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    form input,
+    form select,
+    form textarea,
+    form button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    form button {
+      background-color: #1e90ff;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    form button:hover {
+      background-color: #0d6efd;
+    }
+    .whatsapp {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;
+      background-color: #25D366;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="Aliff Logo" />
+    </div>
+    <h1>STUDY ABROAD with Aliff</h1>
+
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Your Phone Number" required />
+
+      <label for="country">Preferred Country:</label>
+      <select name="country" id="country" required>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Russia">Russia</option>
+        <option value="Spain">Spain</option>
+        <option value="Ireland">Ireland</option>
+        <option value="Hungary">Hungary</option>
+        <option value="United Arab Emirates">United Arab Emirates</option>
+        <option value="Other">Other (please specify below)</option>
+      </select>
+      <input type="text" name="other_country" placeholder="Type your preferred country" />
+
+      <label for="course">Preferred Course:</label>
+      <input type="text" name="course" placeholder="MBBS, Pharmacy, Business, etc." />
+
+      <textarea name="message" rows="4" placeholder="Write your message here..."></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <a class="whatsapp" href="https://wa.me/918973611224" target="_blank">
+      Chat with us on WhatsApp
+    </a>
+  </div>
+
+</body>
+</html>
